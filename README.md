@@ -44,7 +44,7 @@ Al final de este curso, serás capaz de:
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](TBD-generate)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=fdegiovanni&template_name=phaser3-get-started&owner=%40me&name=phaser3-get-started&description=My+clone+repository&visibility=public)
 
 1. Haga clic derecho en **Start course** y abra el enlace en una nueva pestaña.
 2. En la nueva pestaña, la mayoría de las indicaciones se completarán automáticamente.
