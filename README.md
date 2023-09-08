@@ -10,9 +10,7 @@ _Comenza a usar Phaser en menos de 2 horas_
 
 _¡Bienvenido al curso: "Phaser: Primeros pasos"! :wave:_
 
-TBD-step-1-information
-
-**What is _TBD-term-1_**: TBD-definition-1
+Si estas acá es por que quieres incursionar en los videojuegos HTML5. No te voy a entretener. Puedes comenzar con la actividad...
 
 ### ⌨ Actividad: Tu "Hola mundo" de Phaser
 
