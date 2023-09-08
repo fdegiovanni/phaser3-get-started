@@ -5,121 +5,53 @@
 _Comenza a usar Phaser en menos de 2 horas_
 
 </header>
+<video src="./videos/cover-es.mp4" autoplay></video>
 
-## Step 1: Hello World
+## Bienvenido
 
-_¡Bienvenido al curso: "Phaser: Primeros pasos"! :wave:_
+Bienvenido al curso de creación de juegos con Phaser 3.
 
-Si estas acá es por que quieres incursionar en los videojuegos HTML5. No te voy a entretener. Puedes comenzar con la actividad...
+En este curso, aprenderás a crear tu primer juego con Phaser 3, un motor de juegos JavaScript popular y gratuito. Comenzaremos con lo básico, como instalar Phaser y configurar tu entorno de desarrollo. Luego, crearemos un juego simple en el que un jugador corre y salta a través de plataformas, recoge estrellas y evita peligros.
 
-### ⌨ Actividad: Tu "Hola mundo" de Phaser
+Este curso está diseñado para principiantes, por lo que no necesitas experiencia previa en desarrollo de juegos o JavaScript. Sin embargo, algunas nociones básicas de programación serán útiles.
 
-1. Clona este repositorio en tu computadora.
-1. Abri el proyecto en Visual Studio Code.
-1. En la carpeta `/docs/hello-world` encontraras dos archivos vacios: un html y un js.
+- **¿Para quien es esto?**: Personas interesadas en aprender a crear un videojuego HTML5.
+- **¿Qué aprenderás?**: Conceptos basicos del framework Phaser.
+- **¿Qué construirás?**: Un videojuego arcade de plataformas.
+- **Requisitos previos**:
+  - En este curso trabajaremos con Pull Request, además de edición de archivos. Te recomendamos realizar primero el curso de [Introducción a GitHub](https://github.com/skills/introduction-to-github).
+  - > 🚨 Tener instalado [Git](https://git-scm.com/).
+  - > 🚨 Tener instalado [VSCode](https://code.visualstudio.com/).
+  - > 🚨 En VSCode tener instalado el plugin [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+- **¿Cuánto tiempo?**: Este curso se puede finalizar en menos de dos horas.
 
-   a. **Editando el HTML5**
-   En este archivo agregaremos la estructura de la web para soportar el juego.
+Al final de este curso, serás capaz de:
 
-   Para ello agregaremos:
+- Instalar Phaser 3 y configurar tu entorno de desarrollo.
+- Crear un juego simple con Phaser 3.
+- Usar las características básicas de Phaser 3, como sprites, físicas, y eventos.
 
-   - tag head:
-     - con el titulo de la pestaña del navegador
-     - con la llamada CDN a Phaser
-   - tag body:
-     - con la creacion de un canvas donde se dibujara el juego
-     - con laa llamada al script que creara el juego
+### Cómo empezar este curso
 
-   Solo debes copiar las siguientes lineas de codigo, pegarlas en el archivo `index.html` y guardar los cambios.
+<!-- For start course, run in JavaScript:
+'https://github.com/new?' + new URLSearchParams({
+  template_owner: 'TBD-organization',
+  template_name: 'TBD-course-name',
+  owner: '@me',
+  name: 'TBD-organization-TBD-course-name',
+  description: 'My clone repository',
+  visibility: 'public',
+}).toString()
+-->
 
-   ```html
-   <!DOCTYPE html>
-   <html lang="en">
-     <head>
-       <meta charset="UTF-8" />
-       <title>Phaser 3 Hello World</title>
-       <script src="//cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
-     </head>
-     <body>
-       <canvas id="canvas" width="800" height="600"></canvas>
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](TBD-generate)
 
-       <script src="./script.js"></script>
-     </body>
-   </html>
-   ```
-
-   b. **Editando el JS**
-   En este archivo agregaremos la logica mediante el formato que propone el framework Phaser para crear nuestro primer "juego".
-
-   Para ello agregaremos:
-
-   - **Escena**: las escenas son el corazon de todo juego, en ella se incorporan todos los objetos que se visualizaran y a su vez tendra el conocimiento para hacerlo y para hacer el refresh en cada frame.
-     - En este caso es un clase llamada `HelloWorld` que hereda toda su funcionalidad desde `Scene` de Phaser. Ahi mismo lo que tendremos es un fondo y un logo de Phaser que rebotara con los bordes del mundo/escena. 📀 _DVD_
-     - Sobreescribimos las funciones _preload_ y _create_
-       - preload: precarga los recursos en el navegador (imagenes, videos, sonidos, etc)
-       - create: permite visualizar los recursos, ademas de establecer los comporamientos que seguiran los objetos creados.
-   - **config**: es un objeto que permite decirle a Phaser como sera el juego. Existen muchos datos que se pueden setear.
-   - **game**: es donde se guardará el juego una vez que se contruya mediante `new Phaser.Game(config);`
-
-   Solo debes copiar las siguientes lineas de codigo, pegarlas en el archivo `script.js` y guardar los cambios.
-
-   ```js
-   class HelloWorld extends Phaser.Scene {
-     constructor() {
-       super("HelloWorld");
-     }
-
-     preload() {
-       this.load.image("sky", "./assets/space3.png");
-       this.load.image("logo", "./assets/logo.png");
-     }
-
-     create() {
-       this.add.image(400, 300, "sky");
-
-       this.logo = this.physics.add.image(400, 100, "logo");
-
-       this.logo.body.setVelocity(100, 200);
-       this.logo.body.setBounce(1, 1);
-       this.logo.body.setCollideWorldBounds(true);
-     }
-   }
-
-   const config = {
-     type: Phaser.AUTO,
-     width: 800,
-     height: 600,
-     physics: {
-       default: "arcade",
-       arcade: {
-         gravity: { y: 200 },
-         debug: false,
-       },
-     },
-     scene: HelloWorld,
-   };
-
-   const game = new Phaser.Game(config);
-   ```
-
-1. Teniendo abierto el archivo `index.html` haz clic derecho y selecciona 'Open with Live Server' en el menu contextual.
-   <img src="../../images/go-live-menu.png" width="50%" alt="Go Live" />
-
-   Otra forma es hacer clic en el botón Go Live que aparece en la barra inferior del VSCode (siempre teniendo activo el archivo HTML mencionado).
-   <img src="../../images/go-live.png" width="50%" alt="Go Live Button" />
-
-1. En tu navegador favorito navega a la URL `http://localhost:5500/` y veras el juego corriendo (verifica que el puerto sea el mismo que el que te indica el plugin Live Server). :tada:
-   <img src="../../videos/demo-hello-world.gif" width="50%" alt="Hello World" />
-
-1. Por favor, realiza un commit con los cambios realizados y sube los cambios a tu repositorio remoto con los siguientes comandos, ejecutalos en la Terminal de VSCode.
-
-   ```bash
-   git add .
-   git commit -m "commit hello world"
-   git push
-   ```
-
-1. Espera unos 20 segundos y luego actualiza esta página (desde la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/es/actions) se actualizará automáticamente al siguiente paso.
+1. Haga clic derecho en **Start course** y abra el enlace en una nueva pestaña.
+2. En la nueva pestaña, la mayoría de las indicaciones se completarán automáticamente.
+   - Como propietario, elija su cuenta personal o una organización para alojar el repositorio.
+   - Recomendamos crear un repositorio público, ya que los repositorios privados [use Actions minutes](https://docs.github.com/es/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+   - Desplácese hacia abajo y haga clic en el botón **Crear repositorio** en la parte inferior del formulario.
+3. Después de crear su nuevo repositorio, espere unos 20 segundos y luego actualice la página. Siga las instrucciones paso a paso en el archivo README del nuevo repositorio.
 
 <footer>
 
