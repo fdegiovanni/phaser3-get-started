@@ -95,7 +95,7 @@ En este caso, utilizaremos un proyecto que ya tiene la estructura básica de un 
    - Haciendo click en el boton `Go Live` que se encuentra en la parte inferior derecha de VSCode.
 
    Luego de ello, deberas ir a tu navegador o browser favorito y abrir la url `http://localhost:5500/`. Deberas ver algo como esto:
-   <img src="../../images/scaffolding-demo.png" width="50%" alt="Scaffolding" />
+   <img src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/images/scaffolding-demo.png" width="50%" alt="Scaffolding" />
 
 1. Por favor, realiza un commit con los cambios realizados y sube los cambios a tu repositorio remoto con los siguientes comandos, ejecutalos en la Terminal de VSCode.
 

@@ -7,7 +7,7 @@
 
 _¡Felicitaciones! Completaste este curso_
 
-<img src="../../videos/celebration.gif" alt="celebrate" width=800>
+<img src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/videos/celebration.gif" alt="celebrate" width=800>
 
 Aquí hay un resumen de todas las tareas que ha realizado en su repositorio:
 
@@ -39,7 +39,7 @@ Aquí hay un resumen de todas las tareas que ha realizado en su repositorio:
 - Me encantaria escuchar tus opiniones sobre este curso. Puedes dejarme un comentario por:
   - [LinkedIn](https://www.linkedin.com/in/fdegiovanni/)
   - [Twitter](https://twitter.com/fdegiovanni1)
-  - [Instagram](https://www.instagram.com/fdegiovanni/)
+  - [Instagram](https://www.instagram.com/fddgvnn/)
   - [federicoadegiovanni@gmail.com](mailto:federicoadegiovanni@gmail.com)
 - Si te gusto mucho este curso, o deseas apoyarme, pues puedes invitarme a un [☕ Cafecito](https://cafecito.app/fdegiovanni)
 

@@ -137,7 +137,7 @@ Tambien vamos a mostrar el puntaje en pantalla.
 
     Luego de ello, deberas ir a tu navegador o browser favorito y abrir la url `http://localhost:5500/`. Deberas ver algo como esto:
 
-    <img src="../../videos/score-system-demo.gif" width="50%" alt="Score system" />
+    <img src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/videos/score-system-demo.gif" width="50%" alt="Score system" />
 
 1.  Por favor, realiza un commit con los cambios realizados y sube los cambios a tu repositorio remoto con los siguientes comandos, ejecutalos en la Terminal de VSCode.
 

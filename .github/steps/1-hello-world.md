@@ -2,9 +2,19 @@
 
 _¡Bienvenido al curso: "Phaser: Primeros pasos"! :wave:_
 
-TBD-step-1-information
+Para tener un primer acercamiento a Phaser, vamos a crear un "Hola mundo" de Phaser. :earth_americas:
 
-**What is _TBD-term-1_**: TBD-definition-1
+Este acercamiento constara en crear un pequeño proyecto que nos permita visualizar un fondo y un logo de Phaser que rebotara con los bordes del mundo/escena. 📀 _DVD_
+
+Con esto aprenderemos:
+
+- como importar Phaser
+- como crear una escena
+- como precargar recursos
+- como crear objetos
+- como establecer comportamientos
+
+Sin mas perdida de tiempo, ¡manos a la obra! :muscle:
 
 ### ⌨ Actividad: Tu "Hola mundo" de Phaser
 
@@ -97,13 +107,14 @@ TBD-step-1-information
    ```
 
 1. Teniendo abierto el archivo `index.html` haz clic derecho y selecciona 'Open with Live Server' en el menu contextual.
-   <img src="../../images/go-live-menu.png" width="50%" alt="Go Live" />
+
+   <img src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/images/go-live.png" width="50%" alt="Go Live" />
 
    Otra forma es hacer clic en el botón Go Live que aparece en la barra inferior del VSCode (siempre teniendo activo el archivo HTML mencionado).
-   <img src="../../images/go-live.png" width="50%" alt="Go Live Button" />
+   <img src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/images/go-live.png" width="50%" alt="Go Live Button" />
 
 1. En tu navegador favorito navega a la URL `http://localhost:5500/` y veras el juego corriendo (verifica que el puerto sea el mismo que el que te indica el plugin Live Server). :tada:
-   <img src="../../videos/demo-hello-world.gif" width="50%" alt="Hello World" />
+   <img src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/videos/demo-hello-world.gif" width="50%" alt="Hello World" />
 
 1. Por favor, realiza un commit con los cambios realizados y sube los cambios a tu repositorio remoto con los siguientes comandos, ejecutalos en la Terminal de VSCode.
 

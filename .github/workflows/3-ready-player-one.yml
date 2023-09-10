@@ -2,6 +2,9 @@ name: Step 3, Ready player one
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write

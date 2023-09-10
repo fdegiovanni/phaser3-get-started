@@ -2,6 +2,9 @@ name: Step 7, Publish
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write

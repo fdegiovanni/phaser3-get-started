@@ -1,4 +1,4 @@
-## Step 5: Publicar el juego
+## Step 7: Publicar el juego
 
 _¡Ya casi terminamos! :heart:_
 
@@ -48,8 +48,6 @@ Para eso utilizaremos un servicio llamado [GitHub Pages](https://pages.github.co
 
     B. Buscar la sección `GitHub Pages`.
 
-    Acceso rapido: [GitHub Pages](../../settings/pages){:target="\_blank" rel="noopener"}
-
     C. En el desplegable de `Source` vamos a seleccionar la opción `Deploy from a branch`.
 
     D. En el desplegable de `Branch` vamos a seleccionar la opción `main`.
@@ -58,7 +56,7 @@ Para eso utilizaremos un servicio llamado [GitHub Pages](https://pages.github.co
 
     F. Por ultimo, hacemos click en el boton `Save`.
 
-    <video src="../../videos/github-pages.mp4" width="50%" controls></video>
+    <video src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/videos/github-pages.mp4" width="50%" controls></video>
 
 1.  Luego de hacer clic en el boton `Save`, se te va a brindar una URL donde se encuentra publicado tu juego. El formato de la misma es `https://<username>.github.io/<repository-name>/`. Por ejemplo, en este caso quedará parecida a `https://username.github.io/phaser3-get-started/`.
 

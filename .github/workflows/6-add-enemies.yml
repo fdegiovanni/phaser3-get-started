@@ -2,6 +2,9 @@ name: Step 6, Add enemies
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write

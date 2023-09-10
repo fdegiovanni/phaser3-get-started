@@ -67,7 +67,7 @@ Si el jugador no puede controlar nada, no es un videjuego. Por eso ahora veremos
 
     Luego de ello, deberas ir a tu navegador o browser favorito y abrir la url `http://localhost:5500/`. Deberas ver algo como esto:
 
-    <img src="../../videos/player-controller-demo.gif" width="50%" alt="Player controller" />
+    <img src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/videos/player-controller-demo.gif" width="50%" alt="Player controller" />
 
 1.  Por favor, realiza un commit con los cambios realizados y sube los cambios a tu repositorio remoto con los siguientes comandos, ejecutalos en la Terminal de VSCode.
 

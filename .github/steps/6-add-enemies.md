@@ -1,4 +1,4 @@
-## Step 5: Agregando enemigos
+## Step 6: Agregando enemigos
 
 _Al infinito y más allá con ese puntaje 💰_
 
@@ -97,7 +97,7 @@ Ya tenemos un sistema de puntaje, pero aún no tenemos enemigos. Ya es momento d
 
     Luego de ello, deberas ir a tu navegador o browser favorito y abrir la url `http://localhost:5500/`. Deberas ver algo como esto:
 
-    <img src="../../videos/enemies-demo.gif" width="50%" alt="Enemies" />
+    <img src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/videos/enemies-demo.gif" width="50%" alt="Enemies" />
 
 1.  Por favor, realiza un commit con los cambios realizados y sube los cambios a tu repositorio remoto con los siguientes comandos, ejecutalos en la Terminal de VSCode.
 

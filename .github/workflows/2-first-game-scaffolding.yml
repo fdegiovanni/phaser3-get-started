@@ -2,6 +2,9 @@ name: Step 2, First game scaffolding
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write

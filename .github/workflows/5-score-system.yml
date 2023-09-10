@@ -2,6 +2,9 @@ name: Step 5, Score system
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write

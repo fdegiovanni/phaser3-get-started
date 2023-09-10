@@ -129,7 +129,7 @@ _¡Exelentes noticias! Conociste lo basico del scaffolding de tu primer juego :s
     - Haciendo click en el boton `Go Live` que se encuentra en la parte inferior derecha de VSCode.
 
     Luego de ello, deberas ir a tu navegador o browser favorito y abrir la url `http://localhost:5500/`. Deberas ver algo como esto:
-    <img src="../../videos/ready-player-one-demo.gif" width="50%" alt="Ready player one" />
+    <img src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/videos/ready-player-one-demo.gif" width="50%" alt="Ready player one" />
 
 1.  Por favor, realiza un commit con los cambios realizados y sube los cambios a tu repositorio remoto con los siguientes comandos, ejecutalos en la Terminal de VSCode.
 

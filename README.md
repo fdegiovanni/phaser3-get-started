@@ -5,7 +5,7 @@
 _Comenza a usar Phaser en menos de 2 horas_
 
 </header>
-<video src="./videos/cover-es.mp4" autoplay></video>
+<video src="https://github.com/fdegiovanni/phaser3-get-started/blob/main/videos/cover-es.mp4" autoplay></video>
 
 ## Bienvenido
 
@@ -57,7 +57,7 @@ Al final de este curso, serás capaz de:
 
 ---
 
-Get help: [TBD-support](TBD-support-link) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+[Issues del curso](https://github.com/fdegiovanni/phaser3-get-started/issues) &bull; [Revisa la página de estado de GitHub](https://www.githubstatus.com/)
 
 &copy; 2023 [fdegiovanni](https://github.com/fdegiovanni) &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
